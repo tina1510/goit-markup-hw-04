@@ -136,7 +136,7 @@ li {
   color: #404bbf;
 }
 /* section 1 */
-.section-one .container {
+.section-one {
   display: flex;
   flex-direction: column;
   justify-content: center;
