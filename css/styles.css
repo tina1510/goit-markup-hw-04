@@ -290,6 +290,10 @@ li {
   margin-top: 8px;
   justify-content: center;
 }
+.container-text-team .link-social-svg:hover,
+.container-text-team .link-social-svg:focus {
+  background-color: #404bbf;
+}
 
 /* section 4 */
 .list-portfolio {
@@ -420,9 +424,13 @@ li {
 .link-social-svg:focus {
   background-color: #404bbf;
 }
+.link-social-svg:hover,
+.link-social-svg:focus {
+  background-color: #31d0aa;
+}
 .media-icon-svg {
   fill: #f4f4fd;
 }
-.footer-social-media {
-  margin-left: 120px;
+.footer-logo-text {
+  margin-right: 120px;
 }
