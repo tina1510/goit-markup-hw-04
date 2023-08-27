@@ -195,6 +195,7 @@ li {
   height: 56px;
   border: none;
   border-radius: 4px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* section 2 */
 .section-title {
