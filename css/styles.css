@@ -349,8 +349,10 @@ li {
   padding: 40px 32px;
   height: 100%;
   width: 100%;
-  transform: translateY(100%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.container-overlay .text-one:hover {
+  transform: translateY(0%);
 }
 /* footer */
 .footer {
