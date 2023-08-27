@@ -309,24 +309,7 @@ li {
   border: 1px solid #e7e9fc;
   border-top: none;
 }
-/* .overlay {
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.5em;
-  letter-spacing: 0.32px;
-  background: var(--iris, #4d5ae5);
-  color: var(--cloud, #f4f4fd);
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  transform: translateY(100%);
-  transition: transform 250ms ease-in-out;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-} */
+
 .container-overlay:hover .overlay-text,
 .container-overlay:focus .overlay-text {
   transform: translateY(0);
@@ -336,6 +319,9 @@ li {
   overflow: hidden;
 }
 .overlay-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   background: var(--iris, #4d5ae5);
   color: var(--cloud, #f4f4fd);
   position: absolute;
