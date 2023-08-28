@@ -137,9 +137,6 @@ li {
 }
 /* section 1 */
 .section-one {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   background-color: #2e2f42;
   text-align: center;
   padding: 188px 0;
@@ -154,6 +151,7 @@ li {
   background-repeat: no-repeat;
   background-position: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin: 0 auto;
 }
 .page-title {
   color: var(--white, #fff);
@@ -313,8 +311,8 @@ li {
   border-top: none;
 }
 
-.container-overlay:hover .overlay-text,
-.container-overlay:focus .overlay-text {
+.list-portfolio-item:hover .overlay-text,
+.list-portfolio-item:focus .overlay-text {
   transform: translateY(0);
 }
 .container-overlay {
